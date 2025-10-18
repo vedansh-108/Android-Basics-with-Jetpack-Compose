@@ -7,4 +7,4 @@
 - How to center items on the screen, when using a Column( ) composable.
 
 ## How to open this app:
-- Just import the files in the repository and run it on Android Studio.
+- Just import the files on your system from the repository and run it on Android Studio.
