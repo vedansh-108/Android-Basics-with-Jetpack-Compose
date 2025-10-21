@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -56,7 +57,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun DigitalLemonadeApp() {
-    MakingLemonade(modifier = Modifier)
+    MakingLemonade()
 }
 
 @Composable
@@ -166,12 +167,12 @@ fun LemonadeUI (
 
             Text(
                 text = textID,
-                fontSize = 32.sp,
+                fontSize = 36.sp,
                 fontWeight = FontWeight.Bold,
                 fontFamily = FontFamily.Cursive,
                 textAlign = TextAlign.Center,
                 lineHeight = 32.sp,
-                modifier = modifier
+                modifier = modifier.padding(16.dp)
             )
         }
     }
